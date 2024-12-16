@@ -43,4 +43,15 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+
+    public static void createPerson() {
+
+        Person person1 = new Person("Angel", "Perez", 28);
+
+        String surname = "Arenas";
+        int ageMother = 65;
+        GenericMethods.genericMethods(person1, surname, ageMother);
+
+    }
+
 }
